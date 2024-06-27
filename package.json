@@ -1,0 +1,25 @@
+{
+  "name": "bienesraices",
+  "version": "1.0.0",
+  "description": "Primer Proyecto node",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "MVC",
+    "Tailwind",
+    "MySQL"
+  ],
+  "author": "Steve",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
+
