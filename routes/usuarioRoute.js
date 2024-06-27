@@ -21,6 +21,10 @@ router.get('/nosotros', (req, res) => {
     res.json({msg: 'Pestaña nosotros'});
 })
 
+router.get('/contacto', (req, res) => {
+    res.send('Contacta con nosotros');
+})
+
 
 
 export default router;
