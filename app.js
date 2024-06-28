@@ -9,6 +9,9 @@ const app = express();
 app.set('view engine', 'pug');
 app.set('views', './views'); //indica donde se encuentran las vistas
 
+//Carpeta publica (archivos estaticos)
+app.use(express.static('public')); //indica donde se encuentran los archivos estaticos
+
 
 //Routing
 app.use('/auth', usuarioRoute);
